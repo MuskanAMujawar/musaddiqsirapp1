@@ -71,3 +71,7 @@
   background-color: antiquewhite;
   background-image: url(./icon.jpg);
 }
+
+.zero button onClick:hover{
+  color: red;
+}

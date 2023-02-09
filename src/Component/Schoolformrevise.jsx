@@ -10,9 +10,6 @@ export const Schoolformrevise=()=>{
     const [email,setEmail]=useState()
     const [state,setState]=useState()
     const [data,setdata]=useState([
-
-
-
     ])
 
     const handleSubmit=()=>{
