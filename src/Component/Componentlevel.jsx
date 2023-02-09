@@ -16,9 +16,9 @@ export const Componentlevel = () => {
     // // console.log(lastname)
   return (
     <div>
-        <label> first name </label>
+        <label>  name </label>
         <input type="text" onChange={(e)=>setFirstname(e.target.value)}/>
-        <label> middle name </label>
+        <label> name </label>
         <input type="text" onChange={(e)=>setmiddlename(e.target.value)}/>
         <label> last name </label>
         <input type="text" onChange={(e)=>setlastname(e.target.value)}/>
