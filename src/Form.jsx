@@ -9,9 +9,9 @@ function form(){
             {/* <label htmlFor="">first name :</label> */}
             <TextField id="outlined-basic" label="first name" variant="outlined" />
             {/* <input type="text" /><br /><br /> */}
-            <label htmlFor="">last name :</label>
+            <label htmlFor=""> name :</label>
             <input type="text" name="" id="" /><br /><br />
-            <label htmlFor="">middle name :</label>
+            <label htmlFor=""> name :</label>
             <input type="text" name="" id="" /><br /><br />
             <label htmlFor="">date of birth :</label>
             <input type="date" name="" id="" /><br /><br />
@@ -22,7 +22,7 @@ function form(){
             <TextField type="number" id="outlined-basic" label="mobile no" variant="outlined" />
             {/* <label htmlFor="">mobile no :</label> */}
             {/* <input type="number" name="" id="" /><br /><br /> */}
-            <label htmlFor="">email id :</label>
+            <label htmlFor="">email:</label>
             <input type="email" name="" id="" /><br /><br />
             <label htmlFor="">password :</label>
             <input type="password" name="" id=""/><br /><br />
