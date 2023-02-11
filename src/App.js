@@ -22,6 +22,16 @@ import { Greet } from './Component/Greet';
 import { Buttoonn } from './Component/Buttoonn';
 import { Bulb } from './Component/Bulb';
 import { RevisionReact } from './Component/RevisionReact';
+import { About } from './Component/Page/About';
+import { Contact } from './Component/Page/Contact';
+import { Blog } from './Component/Page/Blog';
+import { Home } from './Component/Page/Home';
+import { Navbar } from './Component/Nav/Navbar';
+import { Shopping } from './Component/Shopping';
+import { Buttonpractice } from './Component/Buttonpractice';
+import { Todo } from './Todo';
+import { RouteData } from './Component/RouteData';
+import { Asyncawait } from './Component/Asyncawait';
 
 
 
@@ -79,8 +89,18 @@ function App() {
       {/* <Greet car1={car1name}  car2={car1model} car3={car1color} car4={car1type}/> */}
       {/* <Greet car1={car2name} car2={car2model} car3={car2color} car4={car2type} /> */}
       {/* <Buttoonn/> */}
-      <Bulb/>
+      {/* <Bulb/> */}
       {/* <RevisionReact/> */}
+      {/* <About/> */}
+      {/* <Home/> */}
+      {/* <Contact/> */}
+      {/* <Blog/> */}
+      
+      {/* <RouteData/> */}
+      {/* <Shopping/> */}
+      {/* <Buttonpractice/> */}
+      {/* <Todo/> */}
+      <Asyncawait/>
         </div>
   );
 }
