@@ -7,7 +7,7 @@ export const Navbar = () => {
   return (
     <div className='navbar'>
         <div className='logo_container'>
-            <h3>Career Next</h3>
+            <h3>Shopping Here</h3>
         </div>
         <div className='nav_container'>
              <ul>

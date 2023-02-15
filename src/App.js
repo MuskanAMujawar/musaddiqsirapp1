@@ -1,38 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 import Form from './Form';
-import {Table} from "./Table"
-import BasicButtons from './Buttontest';
-import { MaterialForm } from './MaterialForm';
-import { Reviseform } from './Reviseform';
-import { Cardmaterial } from './Cardmaterial';
-import { Cardrevise } from './Cardrevise';
-import Classcomp from './Component/Classcomp';
-import FY from './Component/FY';
-import { Materialformcard } from './Component/Materialformcard';
-import { Componentlevel3 } from './Component/Componentlevel';
-import { Componentlevel1 } from './Component/Componentlevel1';
-import { Schoolform } from './Component/Schoolform';
-import { Componentlevel5 } from './Component/Componentlevel5';
-import { Schoolformrevise } from './Component/Schoolformrevise';
-import { Task } from './Component/Task';
-import { Datamap } from './DataComponent/Datamap';
-import { AddDeleteButton } from './Component/AddDeleteButton';
-import { Greet } from './Component/Greet';
-import { Buttoonn } from './Component/Buttoonn';
-import { Bulb } from './Component/Bulb';
-import { RevisionReact } from './Component/RevisionReact';
-import { About } from './Component/Page/About';
-import { Contact } from './Component/Page/Contact';
-import { Blog } from './Component/Page/Blog';
+import { Asyncawait } from './Component/Asyncawait';
+import { Too } from './Component/Too';
+import { Todo } from './Todo';
+import { ToDoList1 } from './Component/ToDoList1';
+import { ToDoList2 } from './Component/ToDoList2';
 import { Home } from './Component/Page/Home';
 import { Navbar } from './Component/Nav/Navbar';
-import { Shopping } from './Component/Shopping';
-import { Buttonpractice } from './Component/Buttonpractice';
-import { Todo } from './Todo';
-import { RouteData } from './Component/RouteData';
-import { Asyncawait } from './Component/Asyncawait';
-
+import {RouteData} from './Component/RouteData';
+import { Componentlevel1 } from './Component/Componentlevel1';
 
 
 
@@ -65,42 +42,24 @@ function App() {
 
   return (
     <div className="App">
-      {/* <MaterialForm/> */}
-         {/* <Reviseform/> */}
-      {/* <Table/>
-      <Form/>
-      <BasicButtons/> */}
-      {/* <Cardmaterial/> */}
-      {/* <Cardrevise/> */}
-      {/* <Classcomp/> */}
-      {/* <FY/> */}
-      {/* <Materialformcard/> */}
-      {/* <Componentlevel1/> */}
-      {/* <Schoolform/> */}
-      {/* <Componentlevel5/> */}
-      {/* <Schoolformrevise/> */}
-      {/* <Task/> */}
-      {/* <Datamap/>/ */}
-      {/* <AddDeleteButton/> */}
-      {/* <Greet name1={fname} name2={flast} name3={fadd} name4={fcontact}/>
+            {/* <Greet name1={fname} name2={flast} name3={fadd} name4={fcontact}/>
       <Greet name1={sname} name2={slast} name3={sadd} name4={scontact}/>
       <Greet name1={lname} name2={llast} name3={ladd} name4={lcontact}/>
       <Greet name1={mname} name2={mlast} name3={madd} name4={mcontact}/> */}
       {/* <Greet car1={car1name}  car2={car1model} car3={car1color} car4={car1type}/> */}
       {/* <Greet car1={car2name} car2={car2model} car3={car2color} car4={car2type} /> */}
-      {/* <Buttoonn/> */}
-      {/* <Bulb/> */}
-      {/* <RevisionReact/> */}
-      {/* <About/> */}
-      {/* <Home/> */}
-      {/* <Contact/> */}
-      {/* <Blog/> */}
-      
-      {/* <RouteData/> */}
-      {/* <Shopping/> */}
-      {/* <Buttonpractice/> */}
+     
+      {/* <Asyncawait/> */}
+      {/* <Too/> */}
       {/* <Todo/> */}
-      <Asyncawait/>
+      {/* <ToDoList1/> */}
+      {/* <ToDoList2/> */}
+      {/* <Navbar/> */}
+      {/* <Home/> */}
+      <RouteData/>
+      
+      {/* <Componentlevel1/> */}
+
         </div>
   );
 }

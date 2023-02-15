@@ -1,0 +1,12 @@
+.Button-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.add-icon{
+    background-color: orange;
+    cursor: pointer;
+    margin: 0px 10px;
+}

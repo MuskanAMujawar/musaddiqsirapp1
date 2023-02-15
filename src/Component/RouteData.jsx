@@ -5,6 +5,7 @@ import { About } from './Page/About'
 import { Contact } from './Page/Contact'
 import { Blog } from './Page/Blog'
 import { Navbar } from './Nav/Navbar'
+import { Detail } from './Page/Detail'
 
 export const RouteData = ()=>{
     return(
@@ -16,6 +17,7 @@ export const RouteData = ()=>{
                 <Route path="/about" element={<About/>}/>
                 <Route path="/contact" element={<Contact/>}/>
                 <Route path="/blog" element={<Blog/>}/>
+                <Route path="/Detail" element={<Detail/>}/>
             </Routes>
              </BrowserRouter>
         </div>

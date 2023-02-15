@@ -22,7 +22,7 @@ export const AddDeleteButton =()=>{
             <Button onClick={()=>setData(data-1)}>dec</Button> */}
             <Button onClick={()=>handleincrement(+1)}>increase</Button>
             <h1>count:{data}</h1>
-            <Button onClick={()=>handleincrement(-1)}>dec</Button>
+            <Button onClick={()=>handledecrement(-1)}>dec</Button>
             <Button onClick={()=>handlereset(0)}>reset</Button>
         </div>
     )
